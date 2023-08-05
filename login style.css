@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(
+    to left bottom,
+    #72d0ef,
+    #aab5bd,
+    #b3aafc,
+    #6d7cfd,
+    #8a40d9,
+    #641cb2
+  );
+  object-fit: cover;
+}
+.container {
+  position: relative;
+  max-width: 500px;
+  width: 100;
+  background: #fff;
+  padding: 60px;
+  border-radius: 25px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.container h1 {
+  font-size: 1.1rem;
+  color: rgb(10, 10, 10);
+  font-weight: bolder;
+  text-align: center;
+}
+.container .form {
+  margin-top: 5px;
+}
+.form .input-box {
+  width: 100%;
+  margin-top: 20px;
+}
+.input-box ::placeholder {
+  color: rgb(195, 209, 204);
+}
+.input-box label {
+  color: #0d0101;
+  font-weight: 600;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.form .input-box input {
+  display: flex;
+  background-color: #fff;
+  position: relative;
+  height: 40px;
+  width: 100%;
+  outline: none;
+  font-size: 0.8rem;
+  color: #f0e6e6;
+  margin-top: 3px;
+  border: 1px solid#f0e6e6;
+  border-style: ridge;
+  border-radius: 8px;
+  padding: 0 20px 0 10px;
+}
+.form .button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.form button {
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgb(138, 71, 233);
+  color: #f5f0f0;
+  font-size: medium;
+  font-weight: 400;
+  margin: 5px;
+  border: none;
+}
+.form .check {
+  margin-top: 20px;
+  font-size: 14px;
+  margin-left: 10px;
+  color: #8d8484;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form .pass {
+  text-align: right;
+  font-size: 16px;
+  color: blue;
+}
+
+.form .id {
+  font-size: 13px;
+  font-weight: 600;
+  color: #b1a8a8;
+  padding: 5px;
+  margin-left: 22px;
+}
+.form .sign {
+  font-size: 10px;
+  color: #f0e6e6;
+  margin-top: 1px;
+}
+#b2 {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #cbc3c3;
+  font-size: 15px;
+  font-weight: 500;
+}
+.form .account {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 500;
+  color: #b1a8a8;
+  margin-top: 30px;
+}
+
+.container .account p a {
+  color: rgb(138, 71, 233);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.fa-google {
+  background: conic-gradient(
+      from -45deg,
+      #ea4335 110deg,
+      #4285f4 90deg 180deg,
+      #34a853 180deg 270deg,
+      #fbbc05 270deg
+    )
+    73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  margin-right: 3px;
+}
+.container .check a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #816acb;
+}
+
+.icon {
+  position: relative;
+}
+
+.icon input {
+  padding-right: 30px;
+}
+
+.icon i {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  opacity: 0.4;
+}
